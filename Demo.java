@@ -13,4 +13,7 @@ class Student{
 	void voorstellen() {
 		System.out.println("Hallo ik heet "+ voornaam + " en ik ben "+ leeftijd+" jaar oud");
 	}
+	void naamVeranderen(String nieuweNaam) {
+		voornaam = nieuweNaam;
+	}
 }
